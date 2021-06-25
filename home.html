@@ -1,0 +1,273 @@
+<!-- MEMBUAT WEBSITE DENGAN 1 HALAMAN SAJA -->
+<!-- REFERENSI COBA LIHAT PROJECT SHOWCASE YOUTUBE WEB PROGRAMMING UNPAS -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nataniel Joshe</title>
+    <!-- Goggle font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LINKED -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <script defer src="./script/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3f6d2676e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--- BAGIAN ATAS - TOP -->
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <div class="line-all">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="logo-outside-ul"></div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-links">
+          <li class="welcome">Welcome</li>
+          <li><a href="#home" class="links about" id="menu">About</a></li>
+          <li><a href="#project" class="links dream" id="menu">Project</a></li>
+          <li>
+            <a href="#contact" class="links contact" id="menu" id="menu"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <button class="button-full">
+              <a href="#contact" class="hello">Hello</a>
+            </button>
+          </li>
+          <img
+            class="logo"
+            src="./Images/image2vector.svg"
+            alt="logo"
+            width="50px"
+            height="50px"
+          />
+        </ul>
+      </nav>
+    </header>
+    <!-- Home -->
+    <section id="home">
+      <div class="home-intro">
+        <h1 id="h1-home" class="hello">
+          Hello There, <br />
+          I'm Nataniel Joshe
+        </h1>
+      </div>
+      <div class="home-text">
+        <p id="p-home">
+          Just a boy who learn coding from Indonesia, love music and have a big
+          dream to work at technology company <br />
+          This is my portofolio website and such a pleasure to meet you my
+          guest! <br />
+          Contact me if you need something
+        </p>
+      </div>
+      <button class="file">
+        <a href="./Images/welcome.jpg" target="_blank"> Download Cv </a>
+      </button>
+      <div class="box-container">
+        <div class="profile-pic">
+          <img
+            src="./Images/PicsArt_04-01-10.10.36.png"
+            alt="profile"
+            class="image profile"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Project -->
+    <section id="project">
+      <div class="title">
+        <h1>Project • Skills</h1>
+      </div>
+      <div class="description">
+        <h1 id="title-desc">Project</h1>
+        <p id="paragraph"></p>
+        <div class="project-container">
+          <figure>
+            <div class="img-project-with-border">
+              <div class="img-project-1"></div>
+              <div class="under-border"></div>
+            </div>
+            <figcaption class="project-description">
+              <p>
+                all of these are my project and also it was my skills <br />
+                I really love all of this stuff, because i make it by myself
+                <br />
+                and also a support from my family and my lovely environment
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="project-image">
+        <div class="img-1"></div>
+        <div class="img-2"></div>
+        <div class="img-3"></div>
+        <div class="html-logo"></div>
+        <div class="css-logo"></div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact-content">
+        <div class="contact-title"><h1>Contact Me</h1></div>
+        <div class="form" id="form">
+          <form action="" name="portofolio-form">
+            <div class="form-username">
+              <label for="username" id="username-desc">Username</label>
+              <br />
+              <input
+                type="text"
+                name="username"
+                id="username-box"
+                class="input-box"
+                placeholder="Your name.."
+              />
+            </div>
+            <br />
+            <div class="form-email">
+              <label for="email" id="email-desc">Email</label>
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email-box"
+                class="input-box"
+                placeholder="Email.."
+              />
+            </div>
+            <br />
+            <div class="form-message">
+              <label for="message" id="message-desc">Message</label>
+              <br />
+              <textarea
+                name="message"
+                id="message-box"
+                cols="30"
+                rows="10"
+                class="input-box"
+                placeholder="Message here.."
+              ></textarea>
+            </div>
+            <br />
+            <div class="send-button">
+              <button
+                type="submit"
+                id="send-button-full"
+                class="button--loading"
+              >
+                <span id="text" class="button__text">send</span>
+                <svg
+                  id="check-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 11c2.761.575 6.312 1.688 9 3.438 3.157-4.23 8.828-8.187 15-11.438-5.861 5.775-10.711 12.328-14 18.917-2.651-3.766-5.547-7.271-10-10.917z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Script form submit -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby0c2lOutzr6xq_HlAHtf0HLRrqUpASS8bjieXRa8qdi6qBTPcDxO4XWnoljm2OtVc/exec";
+      const form = document.forms["portofolio-form"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer-main">
+        <div class="footer-section about-footer">
+          <div class="footer-about-img"></div>
+          <div class="footer-about-title">
+            <h1>Short messages</h1>
+            <br />
+            <p>
+              For us who have a big dream, don't give up on it! <br />
+              <strong> Make your spirit burning and do your best! </strong>
+              because no sacrifice no victory <br />
+              Don't forget to visit my youtube channel and follow my instagram
+              <br />
+              If you need something just contact me and donate me if you want.
+            </p>
+          </div>
+        </div>
+        <div class="footer-section links-footer">
+          <h1>Social Media</h1>
+          <br />
+          <ul class="footer-social">
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCo84MV0rs-VCFEr4zf6Cdaw"
+                target="_blank"
+              >
+                (Click) Youtube <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">Donate - <strong> paypal </strong></a>
+            </li>
+            <li>
+              <a href="https://saweria.co/nataniel" target="_blank"
+                >Donate - <strong> saweria </strong></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;2021 | Made by Nataniel Joshe</p>
+      </div>
+      <div class="custom-shape-divider-bottom-1624258906">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- back to top button -->
+    <a class="go-top" href="#"><i class="fas fa-chevron-up"></i></a>
+  </body>
+</html>

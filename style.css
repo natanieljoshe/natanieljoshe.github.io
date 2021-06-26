@@ -457,7 +457,8 @@ form .input-box {
   font-weight: bold;
 }
 #send-button-full:hover {
-  color: blue;
+  color: rgb(0, 0, 175);
+  transition: all ease-out 1.5s;
   background: rgb(20, 218, 224);
 }
 

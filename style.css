@@ -306,7 +306,7 @@ header nav .nav-links .links:hover {
   top: 150px;
 }
 .img-1 {
-  background: url(../Images/gitar-listrik.png);
+  background: url(./Images/gitar-listrik-com.png);
   position: absolute;
   width: 270px;
   height: 270px;
@@ -317,7 +317,7 @@ header nav .nav-links .links:hover {
   background-repeat: no-repeat;
 }
 .img-2 {
-  background: url(../Images/akustik.png);
+  background: url(./Images/akustik-com.png);
   position: absolute;
   width: 270px;
   height: 270px;
@@ -327,7 +327,7 @@ header nav .nav-links .links:hover {
   background-repeat: no-repeat;
 }
 .img-3 {
-  background: url(../Images/sweater-2.png);
+  background: url(../Images/sweater-3-com-fix.png);
   position: absolute;
   width: 480px;
   height: 480px;
@@ -337,7 +337,7 @@ header nav .nav-links .links:hover {
   background-repeat: no-repeat;
 }
 .css-logo {
-  background: url(../Images/css-logo.png);
+  background: url(./Images/css-logo-com.png);
   position: absolute;
   width: 85px;
   height: 126px;
@@ -347,7 +347,7 @@ header nav .nav-links .links:hover {
   background-repeat: no-repeat;
 }
 .html-logo {
-  background: url(../Images/html-logo.png);
+  background: url(./Images/html-logo-com.png);
   position: absolute;
   width: 120px;
   height: 120px;
@@ -365,7 +365,7 @@ header nav .nav-links .links:hover {
   color: #1c3979;
 }
 .description .img-project-1 {
-  background: url(../Images/project-portofolio.png);
+  background: url(./Images/project-portofolio-com.jpg);
   position: absolute;
   width: 470px;
   height: 229px;
@@ -549,7 +549,7 @@ form .input-box {
 .footer-about-img {
   box-sizing: border-box;
   position: absolute;
-  background: url(../Images/PicsArt_04-01-10.10.36.png);
+  background: url(./Images/profile-com.png);
   bottom: 70px;
   left: 15px;
   width: 130px;

@@ -506,6 +506,7 @@ form .input-box {
 @keyframes check {
   to {
     opacity: 1;
+    fill: #89db84;
   }
 }
 
